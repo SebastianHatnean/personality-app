@@ -1,0 +1,48 @@
+<div class="wrapper">
+  <app-navbar></app-navbar>
+  <div class="content-wrapper">
+    <div class="intro-section-wrapper">
+      <span class="intro-text"
+        >So do you consider yourself more of an introvert or an extrovert? Take
+        this test and find out</span
+      >
+    </div>
+    <div class="shape-wrapper">
+      <button mat-raised-button color="basic" (click)="beginTest()">
+        Take the test
+      </button>
+
+      <div class="shape"></div>
+    </div>
+    <div class="data-wrapper" [ngClass]="{ 'blured-data': blurData }">
+      <div
+        class="colored-question-wrapper"
+        *ngFor="let item of questionsAnswers"
+      >
+        <div class="question-wrapper">
+          <span class="question">{{ item.question }}</span>
+          <div class="answers" *ngFor="let answer of item.answers">
+            <button
+              (click)="clickedAns(answer, item)"
+              mat-raised-button
+              color="basic"
+              [ngClass]="{ 'active-answered': answer.active }"
+            >
+              {{ answer.answer }}
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="submit-ans-section">
+      <button
+        mat-raised-button
+        color="basic"
+        [disabled]="blurData"
+        (click)="submit()"
+      >
+        Submit your answers
+      </button>
+    </div>
+  </div>
+</div>

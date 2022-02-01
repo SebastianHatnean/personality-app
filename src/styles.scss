@@ -1,1 +1,18 @@
 /* You can add global styles to this file, and also import other style files */
+
+/* Importing Bootstrap SCSS file. */
+@import "~bootstrap/scss/bootstrap";
+
+* {
+  font-family: Open Sans, Helvetica Neue, Arial !important;
+}
+
+html,
+body {
+  color: #51596a;
+  font-size: 1.125em;
+  margin: 0;
+  transition: padding-top 0.2s ease-in-out;
+  height: 100%;
+  box-sizing: border-box;
+}

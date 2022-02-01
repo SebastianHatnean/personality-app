@@ -1,0 +1,68 @@
+{
+  "myJson": {
+    "questions": [
+      {
+        "id": "question1",
+        "question": "The people who know you best are more likely to describe you as someone who’s:",
+        "answers": [
+          {
+            "id": "q1ans1",
+            "answer": "Outgoing and talkative",
+            "score": 5,
+            "active": false
+          },
+          {
+            "id": "q1ans2",
+            "answer": "Quiet and reflective",
+            "score": 10,
+            "active": false
+          }
+        ]
+      },
+      {
+        "id": "question2",
+        "question": "You tend to find talking to new people:",
+        "answers": [
+          { "id": "q2ans1", "answer": "Energizing", "score": 5, "active": false },
+          { "id": "q2ans2", "answer": "Awkward", "score": 10, "active": false }
+        ]
+      },
+      {
+        "id": "question3",
+        "question": "In general, which of the two are you more likely to feel?",
+        "answers": [
+          {
+            "id": "q3ans1",
+            "answer": "Bored and understimulated",
+            "score": 5,
+            "active": false
+          },
+          {
+            "id": "q3ans2",
+            "answer": "Overwhelmed and overstimulated",
+            "score": 10,
+            "active": false
+          }
+        ]
+      },
+      {
+        "id": "question4",
+        "question": "You’re more likely to recharge your batteries by:",
+        "answers": [
+          {
+            "id": "q4ans1",
+            "answer": "Getting some alone time",
+            "score": 5,
+            "active": false
+          },
+          {
+            "id": "q4ans2",
+            "answer": "Going out with a group of friends",
+            "score": 10,
+            "active": false
+          }
+        ]
+      }
+    ]
+  }
+}

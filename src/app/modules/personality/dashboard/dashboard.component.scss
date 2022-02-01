@@ -1,0 +1,129 @@
+.intro-text {
+  font-size: 2vw;
+  font-weight: 600;
+  color: #fffffff0;
+  width: 60%;
+  text-align: center;
+  line-height: 26px;
+  margin-top: 26px;
+}
+
+.intro-section-wrapper {
+  background-color: #88619ac2;
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.colored-question-wrapper {
+  background-color: #1dcc2f33;
+}
+
+.question-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 70%;
+  margin: auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-top: 1px solid #8080801f;
+}
+
+.question {
+  color: #576071;
+  font-weight: 600;
+  line-height: 1.5;
+  text-align: center;
+  font-size: 1.4em;
+}
+
+.blured-data {
+  filter: blur(7px);
+  pointer-events: none;
+}
+
+.shape-wrapper {
+    position: relative;
+    background-color: #d3f5d8;
+    padding-bottom: 50px;
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+  button {
+    z-index: 3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+  }
+}
+
+.shape {
+  background-color: #a487b2;
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: -1px;
+  width: 100%;
+  z-index: 2;
+  clip-path: polygon(
+    0 0,
+    100% 0,
+    100% calc(100% - 30px),
+    calc(50% + 370px) 100%,
+    47% calc(100% - 27px),
+    calc(50% - 370px) 100%,
+    0 calc(100% - 30px)
+  );
+  height: 155px;
+}
+
+.ans {
+  display: flex;
+  width: 200px;
+  border: 1px solid #8080805c;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+  height: 55px;
+  font-size: 1.3em;
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
+  cursor: pointer;
+}
+
+.answers {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  flex-direction: column;
+  margin: 10px;
+  align-items: center;
+
+  button {
+    width: 45%;
+    margin: 10px;
+    white-space: normal;
+  }
+}
+
+.active-answered {
+  background-color: #88619a !important;
+  color: white;
+}
+
+.submit-ans-section {
+  height: 200px;
+  /* background-color: #1dcc2f33; */
+  background-image: linear-gradient(#1dcc2f33, white);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

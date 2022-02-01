@@ -1,0 +1,70 @@
+{
+  "myJson": {
+    "questions": [
+      {
+        "id": "question1",
+        "question": "The people who know you best are more likely to describe you as someone who’s:",
+        "answers": [
+          {
+            "id": "ans1",
+            "answer": "Outgoing and talkative",
+            "score": 5
+          },
+          {
+            "id": "ans2",
+            "answer": "Quiet and reflective",
+            "score": 10
+          }
+        ]
+      },
+      {
+        "id": "question2",
+        "question": "You tend to find talking to new people:",
+        "answers": [
+          {
+            "id": "ans1",
+            "answer": "Energizing",
+            "score": 5
+          },
+          {
+            "id": "ans2",
+            "answer": "Awkward",
+            "score": 10
+          }
+        ]
+      },
+      {
+        "id": "question3",
+        "question": "In general, which of the two are you more likely to feel?",
+        "answers": [
+          {
+            "id": "ans1",
+            "answer": "Bored and understimulated",
+            "score": 5
+          },
+          {
+            "id": "ans2",
+            "answer": "Overwhelmed and overstimulated",
+            "score": 10
+          }
+        ]
+      },
+      {
+        "id": "question4",
+        "question": "You’re more likely to recharge your batteries by:",
+        "answers": [
+          {
+            "id": "ans1",
+            "answer": "Getting some alone time",
+            "score": 5
+          },
+          {
+            "id": "ans2",
+            "answer": "Going out with a group of friends",
+            "score": 10
+          }
+        ]
+      }
+    ]
+  }
+}
